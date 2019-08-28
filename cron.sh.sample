@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "0 */12 * * * find /home -type f -not -path "*/.ssh*" -mtime +60 -exec rm {} \;" | crontab -
+
+cron &
