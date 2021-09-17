@@ -1,4 +1,4 @@
-# stack-share
+# swarm-stack-share
 
 Swarm stack composed of `sftp` and `nginx` to facilitate the sharing of files.
 
